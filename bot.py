@@ -44,11 +44,6 @@ async def 咚神(ctx):
     await ctx.send(random_dong) 
 
 @bot.command()
-async def 臭雞雞(ctx):
-    random_dong = random.choice(jdata['dong'])
-    await ctx.send(random_dong) 
-
-@bot.command()
 async def 叮咚(ctx):
     random_dong = random.choice(jdata['dong'])
     await ctx.send(random_dong) 
